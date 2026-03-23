@@ -131,6 +131,11 @@
     align-items: start;
   }
 
+  .recipe-ingredients {
+    position: sticky;
+    top: calc(var(--space-16) + var(--space-4));
+  }
+
   @media (max-width: 680px) {
     .recipe-body {
       grid-template-columns: 1fr;
@@ -138,11 +143,6 @@
     .recipe-ingredients {
       position: static;
     }
-  }
-
-  .recipe-ingredients {
-    position: sticky;
-    top: calc(var(--space-16) + var(--space-4));
   }
 
   .recipe-section-title {
