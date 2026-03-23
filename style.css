@@ -642,9 +642,8 @@
 
 .about-preview-image img {
   width: 100%;
-  object-fit: cover;
-  aspect-ratio: 1/1;
-  max-height: 400px;
+  height: auto;
+  border-radius: var(--radius-lg);
 }
 
 @media (max-width: 768px) {
